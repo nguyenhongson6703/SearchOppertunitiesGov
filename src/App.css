@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* general csss */
+.custom-border{
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* css for main layout */
+.main-layout .header{
+  padding: 12px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-layout .header {
+  background-color: #e9ecef;
+} 
+.main-layout .header .filter-button{
+  padding: 10px;
+  background-color: #4f8eea;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main-layout .header .search-text{
+  padding: 10px;
+}
+.main-layout .header .search-button{
+  padding: 10px 16px 10px 16px;
+    background-color: #4f8eea;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-layout .head-content{
+  border-bottom: 2px solid #d9dcdf;
+  padding-bottom: 12px;
+  margin-top: 12px;
 }
+.main-layout .sort-text{
+  display: block;
+  color: #908c8c;
+}
+
+.main-layout .sort-btn{
+  padding: 6px;
+  border: 1px solid #c8c6c6;
+  background-color: white;
+}
+
+
