@@ -39,4 +39,14 @@
   background-color: white;
 }
 
+.main-layout .content-item{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-layout .button-contract{
+  border: 1px solid #cbc2c2;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+
 
